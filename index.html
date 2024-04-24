@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Стартовый шаблон | ВебКадеми</title>
+		<link rel="stylesheet" href="./css/main.css" />
+
+		<link rel="icon" type="image/x-icon" href="./img/favicons/favicon.svg" />
+		<link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png" />
+	</head>
+
+	<body>
+		<div class="overlay none"></div>
+		<header class="header">
+			<div class="container">
+				<div class="header__row">
+					<a class="logo" href="#">
+						<span class="logo__icon">🌍</span>
+						<span>
+							Среда
+							<br />
+							Обитания
+						</span>
+					</a>
+					<nav class="menu">
+						<ul class="menu__list">
+							<li class="menu__item">
+								<a class="menu__link" href="#">Главная</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#">Наземно-воздушные</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#">Водные</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#">Почвенные</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#">Внутриорганизменная</a>
+							</li>
+						</ul>
+					</nav>
+					<button class="mobile-nav-btn">
+						<div class="nav-icon"></div>
+					</button>
+				</div>
+			</div>
+		</header>
+		<div class="mobile-nav">
+			<ul class="mobile-nav__list">
+				<li class="mobile-nav__item">
+					<a class="mobile-nav__link" href="#">Главная</a>
+				</li>
+				<li class="mobile-nav__item">
+					<a class="mobile-nav__link" href="#">Наземно-воздушные</a>
+				</li>
+				<li class="mobile-nav__item">
+					<a class="mobile-nav__link" href="#">Водные</a>
+				</li>
+				<li class="mobile-nav__item">
+					<a class="mobile-nav__link" href="#">Почвенные</a>
+				</li>
+				<li class="mobile-nav__item">
+					<a class="mobile-nav__link" href="#">Внутриорганизменная</a>
+				</li>
+			</ul>
+		</div>
+
+		<section class="hero">
+			<div class="container hero--inner">
+				<div class="hero__content">
+					<h1 class="hero__title">Среда<br />обитания</h1>
+					<p class="hero__text">Погрузитесь в&#160;изучение среды жизни с&#160;подробными статьями и&#160;примерами</p>
+					<a class="hero__btn btn" href="#">Посмотреть статью</a>
+				</div>
+			</div>
+		</section>
+
+		<section class="water section">
+			<div class="container">
+				<h2 class="section-title" data-section-title="Среда жизни">Водные</h2>
+			</div>
+		</section>
+		<div class="developer-widget none">
+			<button class="developer-widget__btn-close">
+				<svg width="38" height="38" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M18.8292 6.74896L6.82922 18.749" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+					<path d="M6.82922 6.74896L18.8292 18.749" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+				</svg>
+			</button>
+			<h3 class="developer-widget__title">О&#160;разработчике данного сайта</h3>
+			<p class="developer-widget__subtitle">
+				Разработчиком и&#160;UX/UI дизайнером данного сайта является
+				<span class="developer-widget__name">Дмитрий</span>
+			</p>
+			<a class="developer-widget__username-telegram" href="https://t.me/f_dimas_pl">
+				@f_dimas_pl
+			</a>
+			<a class="developer-widget__btn" href="https://t.me/f_dimas_pl">
+				<svg class="developer-widget__btn-icon" width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<g clip-path="url(#clip0_44_23)">
+						<path
+							d="M24.01 48.02C37.2703 48.02 48.02 37.2703 48.02 24.01C48.02 10.7496 37.2703 0 24.01 0C10.7496 0 0 10.7496 0 24.01C0 37.2703 10.7496 48.02 24.01 48.02Z"
+							fill="white"
+						/>
+						<path
+							class="path-air"
+							fill-rule="evenodd"
+							clip-rule="evenodd"
+							d="M10.8555 23.7501C17.8525 20.7113 22.5106 18.6922 24.8496 17.7126C31.5069 14.9338 32.9063 14.454 33.8059 14.434C34.0058 14.434 34.4456 14.4739 34.7455 14.7138C34.9854 14.9138 35.0454 15.1737 35.0854 15.3736C35.1253 15.5735 35.1653 15.9933 35.1253 16.3132C34.7655 20.1116 33.2061 29.3278 32.4065 33.566C32.0666 35.3652 31.4069 35.965 30.7672 36.025C29.3677 36.1449 28.3082 35.1053 26.9687 34.2257C24.8496 32.8463 23.6701 31.9866 21.611 30.6272C19.232 29.0679 20.7713 28.2082 22.1308 26.8088C22.4906 26.449 28.6281 20.8513 28.748 20.3515C28.768 20.2915 28.768 20.0516 28.6281 19.9317C28.4881 19.8117 28.2882 19.8517 28.1283 19.8917C27.9084 19.9317 24.5498 22.1707 18.0125 26.5889C17.0529 27.2486 16.1932 27.5685 15.4136 27.5485C14.5539 27.5285 12.9146 27.0687 11.6751 26.6689C10.1757 26.1891 8.97624 25.9292 9.0762 25.0895C9.13617 24.6497 9.73592 24.2099 10.8555 23.7501Z"
+							fill="#FF1313"
+						/>
+					</g>
+					<defs>
+						<clipPath id="clip0_44_23">
+							<rect width="48" height="48" fill="white" />
+						</clipPath>
+					</defs>
+				</svg>
+				<span class="developer-widget__btn-text">Открыть профиль в&#160;Telegram</span>
+			</a>
+		</div>
+		<script src="./js/index.bundle.js"></script>
+	</body>
+</html>
